@@ -6,11 +6,18 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json-server": "json-server --watch db.json --port 3001"
   },
   "dependencies": {
+    "axios": "^1.6.2",
+    "bootstrap": "^5.3.2",
+    "json-server": "^0.17.4",
+    "next": "14.0.3",
     "react": "^18",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18",
-    "next": "14.0.3"
+    "react-icons": "^4.12.0",
+    "uuid": "^9.0.1"
   }
 }
